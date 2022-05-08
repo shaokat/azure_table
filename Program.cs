@@ -11,8 +11,7 @@ namespace demo
         {
             Console.WriteLine("Table storage sample");
 
-            var storageConnectionString =
-                "DefaultEndpointsProtocol=https;AccountName=shaokatdemostorage;AccountKey=h68W3qcKPEfuFfBivbhjAvnO3Ba8hb5Ew34vuhPM/dhvsjYT1yHZMbz/gYuiLilbIrxGCzJeWTYQp4NL7slj3A==;EndpointSuffix=core.windows.net";
+            var storageConnectionString = " ";
             var tableName = "employee";
 
             CloudStorageAccount storageAccount = CloudStorageAccount.Parse(storageConnectionString);
